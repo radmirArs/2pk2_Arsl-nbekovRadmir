@@ -73,7 +73,7 @@ namespace PZ_01
             double res3 = Math.Abs(res3_1);
             //вывод ответа выражения с введеными данными
             double resultat = (res1 + res2 + res3);
-            Console.WriteLine("результат: " + resultat);
+            Console.WriteLine("результат: " + Math.Round(resultat));
 
 
         }
