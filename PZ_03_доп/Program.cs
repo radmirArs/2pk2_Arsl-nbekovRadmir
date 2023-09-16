@@ -44,7 +44,7 @@
                         Console.WriteLine("стрижка головы с ножницами и машинкой, и уход за бородой, усами. Цена  4000 рублей,. Требуется индивидуальный подход)");
                         Name = Console.ReadLine();
                         USerName.Add(Name);
-                        Sum += 2800;
+                        Sum += 4800;
                         break;
                     default:
                         i++;
