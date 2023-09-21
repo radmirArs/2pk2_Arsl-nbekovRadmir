@@ -58,7 +58,7 @@
             int end2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Кратно какому числу");
             int multiplicity = Convert.ToInt32(Console.ReadLine());
-            for (int i1 = start2; i1 < end2; i1++)
+            for (int i1 = start2; i1 <= end2; i1++)
             {
                 if (i1 % multiplicity == 0)
                 {
