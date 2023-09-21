@@ -13,7 +13,7 @@
             for(int i = start; i < end; i++)
             {
                 
-                if(i%step == 0) 
+                if(i%step == 1) 
                 {
                     continue; 
                 }
