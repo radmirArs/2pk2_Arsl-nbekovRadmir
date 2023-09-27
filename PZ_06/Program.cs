@@ -20,16 +20,7 @@ namespace PZ_06
             if (num1 > 0) { Console.WriteLine(num1);}
             else { Console.WriteLine("ошибка"); }
 
-           /* Console.WriteLine("Введите значения 10-ти элементов массива: ");
-            double[] numbersarray = new double[10];
-            double num1 = 0;
-            for (int i = 0; i < numbersarray.Length; i++)
-            {
-                numbersarray[i] = Convert.ToDouble(Console.ReadLine());
-                if (numbersarray[i] == 0 && i <= 10) break;
-                num1 = num1 + numbersarray[i];
-            }
-            Console.WriteLine(num1);*/
+           
         }
     }
 }
