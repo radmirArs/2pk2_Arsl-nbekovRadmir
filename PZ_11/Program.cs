@@ -23,7 +23,7 @@ namespace PZ_11
 
         static double GetHypotenuse(double a, double b)
         {
-            return Math.Sqrt(Math.Pow(a,2) * Math.Pow(b,2));
+            return Math.Sqrt(a*a + b*b);
         }
 
         static double GetArea(double a, double b)
