@@ -28,8 +28,8 @@ namespace PZ_13
             double m = Convert.ToDouble(Console.ReadLine());
             double b1 = 1;
             double q = 0.4;
-            double Bn = GetGeometricProgression(b1, -q, m);
-            Console.WriteLine($"значение {n} - го члена: {Bn} ");
+            double Bn = GetGeometricProgression(b1, q, m);
+            Console.WriteLine($"значение {m} - го члена: {Bn} ");
             Console.WriteLine();
             Console.WriteLine();
 
